@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lichangheng/robo_ws/pytorch/third_party/sleef/src/common/common.c
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+math.h
+-
+assert.h
+-
+misc.h
+/home/lichangheng/robo_ws/pytorch/third_party/sleef/src/common/misc.h
+sys/timeb.h
+-
+sys/time.h
+-
+time.h
+-
+unistd.h
+-
+malloc.h
+-
+intrin.h
+-
+
+/home/lichangheng/robo_ws/pytorch/third_party/sleef/src/common/misc.h
+x86intrin.h
+-
+

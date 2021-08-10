@@ -1,0 +1,323 @@
+; Auto-generated. Do not edit!
+
+
+(cl:in-package roborts_msgs-msg)
+
+
+;//! \htmlinclude ArmorPos.msg.html
+
+(cl:defclass <ArmorPos> (roslisp-msg-protocol:ros-message)
+  ((is_valid
+    :reader is_valid
+    :initarg :is_valid
+    :type cl:boolean
+    :initform cl:nil)
+   (x
+    :reader x
+    :initarg :x
+    :type cl:float
+    :initform 0.0)
+   (y
+    :reader y
+    :initarg :y
+    :type cl:float
+    :initform 0.0)
+   (z
+    :reader z
+    :initarg :z
+    :type cl:float
+    :initform 0.0)
+   (distance
+    :reader distance
+    :initarg :distance
+    :type cl:float
+    :initform 0.0)
+   (pose_in_gimbal
+    :reader pose_in_gimbal
+    :initarg :pose_in_gimbal
+    :type (cl:vector cl:float)
+   :initform (cl:make-array 0 :element-type 'cl:float :initial-element 0.0))
+   (vertex
+    :reader vertex
+    :initarg :vertex
+    :type (cl:vector cl:float)
+   :initform (cl:make-array 0 :element-type 'cl:float :initial-element 0.0))
+   (motion_vec
+    :reader motion_vec
+    :initarg :motion_vec
+    :type (cl:vector cl:float)
+   :initform (cl:make-array 0 :element-type 'cl:float :initial-element 0.0)))
+)
+
+(cl:defclass ArmorPos (<ArmorPos>)
+  ())
+
+(cl:defmethod cl:initialize-instance :after ((m <ArmorPos>) cl:&rest args)
+  (cl:declare (cl:ignorable args))
+  (cl:unless (cl:typep m 'ArmorPos)
+    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name roborts_msgs-msg:<ArmorPos> is deprecated: use roborts_msgs-msg:ArmorPos instead.")))
+
+(cl:ensure-generic-function 'is_valid-val :lambda-list '(m))
+(cl:defmethod is_valid-val ((m <ArmorPos>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader roborts_msgs-msg:is_valid-val is deprecated.  Use roborts_msgs-msg:is_valid instead.")
+  (is_valid m))
+
+(cl:ensure-generic-function 'x-val :lambda-list '(m))
+(cl:defmethod x-val ((m <ArmorPos>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader roborts_msgs-msg:x-val is deprecated.  Use roborts_msgs-msg:x instead.")
+  (x m))
+
+(cl:ensure-generic-function 'y-val :lambda-list '(m))
+(cl:defmethod y-val ((m <ArmorPos>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader roborts_msgs-msg:y-val is deprecated.  Use roborts_msgs-msg:y instead.")
+  (y m))
+
+(cl:ensure-generic-function 'z-val :lambda-list '(m))
+(cl:defmethod z-val ((m <ArmorPos>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader roborts_msgs-msg:z-val is deprecated.  Use roborts_msgs-msg:z instead.")
+  (z m))
+
+(cl:ensure-generic-function 'distance-val :lambda-list '(m))
+(cl:defmethod distance-val ((m <ArmorPos>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader roborts_msgs-msg:distance-val is deprecated.  Use roborts_msgs-msg:distance instead.")
+  (distance m))
+
+(cl:ensure-generic-function 'pose_in_gimbal-val :lambda-list '(m))
+(cl:defmethod pose_in_gimbal-val ((m <ArmorPos>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader roborts_msgs-msg:pose_in_gimbal-val is deprecated.  Use roborts_msgs-msg:pose_in_gimbal instead.")
+  (pose_in_gimbal m))
+
+(cl:ensure-generic-function 'vertex-val :lambda-list '(m))
+(cl:defmethod vertex-val ((m <ArmorPos>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader roborts_msgs-msg:vertex-val is deprecated.  Use roborts_msgs-msg:vertex instead.")
+  (vertex m))
+
+(cl:ensure-generic-function 'motion_vec-val :lambda-list '(m))
+(cl:defmethod motion_vec-val ((m <ArmorPos>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader roborts_msgs-msg:motion_vec-val is deprecated.  Use roborts_msgs-msg:motion_vec instead.")
+  (motion_vec m))
+(cl:defmethod roslisp-msg-protocol:serialize ((msg <ArmorPos>) ostream)
+  "Serializes a message object of type '<ArmorPos>"
+  (cl:write-byte (cl:ldb (cl:byte 8 0) (cl:if (cl:slot-value msg 'is_valid) 1 0)) ostream)
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'x))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'y))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'z))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-double-float-bits (cl:slot-value msg 'distance))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream))
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'pose_in_gimbal))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (cl:let ((bits (roslisp-utils:encode-double-float-bits ele)))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream)))
+   (cl:slot-value msg 'pose_in_gimbal))
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'vertex))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (cl:let ((bits (roslisp-utils:encode-double-float-bits ele)))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream)))
+   (cl:slot-value msg 'vertex))
+  (cl:let ((__ros_arr_len (cl:length (cl:slot-value msg 'motion_vec))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) __ros_arr_len) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) __ros_arr_len) ostream))
+  (cl:map cl:nil #'(cl:lambda (ele) (cl:let ((bits (roslisp-utils:encode-double-float-bits ele)))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 32) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 40) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 48) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 56) bits) ostream)))
+   (cl:slot-value msg 'motion_vec))
+)
+(cl:defmethod roslisp-msg-protocol:deserialize ((msg <ArmorPos>) istream)
+  "Deserializes a message object of type '<ArmorPos>"
+    (cl:setf (cl:slot-value msg 'is_valid) (cl:not (cl:zerop (cl:read-byte istream))))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'x) (roslisp-utils:decode-double-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'y) (roslisp-utils:decode-double-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'z) (roslisp-utils:decode-double-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'distance) (roslisp-utils:decode-double-float-bits bits)))
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'pose_in_gimbal) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'pose_in_gimbal)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:aref vals i) (roslisp-utils:decode-double-float-bits bits))))))
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'vertex) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'vertex)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:aref vals i) (roslisp-utils:decode-double-float-bits bits))))))
+  (cl:let ((__ros_arr_len 0))
+    (cl:setf (cl:ldb (cl:byte 8 0) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 8) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 16) __ros_arr_len) (cl:read-byte istream))
+    (cl:setf (cl:ldb (cl:byte 8 24) __ros_arr_len) (cl:read-byte istream))
+  (cl:setf (cl:slot-value msg 'motion_vec) (cl:make-array __ros_arr_len))
+  (cl:let ((vals (cl:slot-value msg 'motion_vec)))
+    (cl:dotimes (i __ros_arr_len)
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 32) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 40) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 48) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 56) bits) (cl:read-byte istream))
+    (cl:setf (cl:aref vals i) (roslisp-utils:decode-double-float-bits bits))))))
+  msg
+)
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<ArmorPos>)))
+  "Returns string type for a message object of type '<ArmorPos>"
+  "roborts_msgs/ArmorPos")
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql 'ArmorPos)))
+  "Returns string type for a message object of type 'ArmorPos"
+  "roborts_msgs/ArmorPos")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<ArmorPos>)))
+  "Returns md5sum for a message object of type '<ArmorPos>"
+  "7c1653860dd6778fef70d70be834958c")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'ArmorPos)))
+  "Returns md5sum for a message object of type 'ArmorPos"
+  "7c1653860dd6778fef70d70be834958c")
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<ArmorPos>)))
+  "Returns full string definition for message of type '<ArmorPos>"
+  (cl:format cl:nil "bool is_valid~%float64 x~%float64 y~%float64 z~%float64 distance~%float64[] pose_in_gimbal~%float64[] vertex~%float64[] motion_vec~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'ArmorPos)))
+  "Returns full string definition for message of type 'ArmorPos"
+  (cl:format cl:nil "bool is_valid~%float64 x~%float64 y~%float64 z~%float64 distance~%float64[] pose_in_gimbal~%float64[] vertex~%float64[] motion_vec~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:serialization-length ((msg <ArmorPos>))
+  (cl:+ 0
+     1
+     8
+     8
+     8
+     8
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'pose_in_gimbal) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ 8)))
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'vertex) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ 8)))
+     4 (cl:reduce #'cl:+ (cl:slot-value msg 'motion_vec) :key #'(cl:lambda (ele) (cl:declare (cl:ignorable ele)) (cl:+ 8)))
+))
+(cl:defmethod roslisp-msg-protocol:ros-message-to-list ((msg <ArmorPos>))
+  "Converts a ROS message object to a list"
+  (cl:list 'ArmorPos
+    (cl:cons ':is_valid (is_valid msg))
+    (cl:cons ':x (x msg))
+    (cl:cons ':y (y msg))
+    (cl:cons ':z (z msg))
+    (cl:cons ':distance (distance msg))
+    (cl:cons ':pose_in_gimbal (pose_in_gimbal msg))
+    (cl:cons ':vertex (vertex msg))
+    (cl:cons ':motion_vec (motion_vec msg))
+))

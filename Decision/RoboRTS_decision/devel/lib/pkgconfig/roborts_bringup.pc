@@ -1,0 +1,8 @@
+prefix=/home/lichangheng/robo_ws/Decision/RoboRTS_decision/devel
+
+Name: roborts_bringup
+Description: Description of roborts_bringup
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC  -fopenmp -O3 -DNDEBUG  -shared  -o ../../lib/libfoxi.so CMakeFiles/foxi_wrapper.dir/foxi/onnxifi_wrapper.c.o ../../lib/libfoxi_loader.a -ldl -Wl,-rpath,::::::: 

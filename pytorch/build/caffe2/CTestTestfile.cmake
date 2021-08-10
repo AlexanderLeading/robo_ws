@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/lichangheng/robo_ws/pytorch/caffe2
+# Build directory: /home/lichangheng/robo_ws/pytorch/build/caffe2
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(aten)
+subdirs(torch)
+subdirs(proto)
+subdirs(contrib)
+subdirs(core)
+subdirs(utils)
+subdirs(predictor)
+subdirs(predictor/emulator)
+subdirs(core/nomnigraph)
+subdirs(serialize)
+subdirs(db)
+subdirs(distributed)
+subdirs(ideep)
+subdirs(image)
+subdirs(video)
+subdirs(mobile)
+subdirs(mpi)
+subdirs(observers)
+subdirs(onnx)
+subdirs(operators)
+subdirs(operators/rnn)
+subdirs(operators/quantized)
+subdirs(opt)
+subdirs(perfkernels)
+subdirs(python)
+subdirs(queue)
+subdirs(sgd)
+subdirs(share)
+subdirs(transforms)

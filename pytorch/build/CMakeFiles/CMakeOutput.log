@@ -1,0 +1,1797 @@
+The system is: Linux - 4.15.0-112-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d716d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d716d.dir/build.make CMakeFiles/cmTC_d716d.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d716d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_d716d.dir/testCXXCompiler.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d716d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d716d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d716d.dir/testCXXCompiler.cxx.o  -o cmTC_d716d 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33827/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33827.dir/build.make CMakeFiles/cmTC_33827.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33827.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_33827.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_33827
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33827.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_33827.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_33827  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33827' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc35u73z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_33827 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_33827.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_33827/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_33827.dir/build.make CMakeFiles/cmTC_33827.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_33827.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_33827.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_33827]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33827.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_33827.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_33827  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33827' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc35u73z.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_33827 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_33827.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc35u73z.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_33827] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_33827.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9cb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9cb4.dir/build.make CMakeFiles/cmTC_d9cb4.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9cb4.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_d9cb4.dir/feature_tests.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d9cb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9cb4.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d9cb4.dir/feature_tests.cxx.o  -o cmTC_d9cb4 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_391c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_391c9.dir/build.make CMakeFiles/cmTC_391c9.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_391c9.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_391c9.dir/feature_tests.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_391c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_391c9.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_391c9.dir/feature_tests.cxx.o  -o cmTC_391c9 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64281/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64281.dir/build.make CMakeFiles/cmTC_64281.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64281.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_64281.dir/feature_tests.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_64281
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64281.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_64281.dir/feature_tests.cxx.o  -o cmTC_64281 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05f37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05f37.dir/build.make CMakeFiles/cmTC_05f37.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05f37.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_05f37.dir/testCCompiler.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_05f37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05f37.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_05f37.dir/testCCompiler.c.o  -o cmTC_05f37 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5f2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5f2b.dir/build.make CMakeFiles/cmTC_b5f2b.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5f2b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b5f2b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b5f2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5f2b.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_b5f2b.dir/CMakeCCompilerABI.c.o  -o cmTC_b5f2b  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5f2b' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEJi0f7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b5f2b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b5f2b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b5f2b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b5f2b.dir/build.make CMakeFiles/cmTC_b5f2b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b5f2b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_b5f2b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b5f2b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5f2b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_b5f2b.dir/CMakeCCompilerABI.c.o  -o cmTC_b5f2b  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5f2b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEJi0f7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b5f2b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b5f2b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccEJi0f7.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b5f2b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_b5f2b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a328/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a328.dir/build.make CMakeFiles/cmTC_2a328.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a328.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_2a328.dir/feature_tests.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2a328
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a328.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2a328.dir/feature_tests.c.o  -o cmTC_2a328 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56b27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56b27.dir/build.make CMakeFiles/cmTC_56b27.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56b27.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_56b27.dir/feature_tests.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_56b27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56b27.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_56b27.dir/feature_tests.c.o  -o cmTC_56b27 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82225/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82225.dir/build.make CMakeFiles/cmTC_82225.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82225.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_82225.dir/feature_tests.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_82225
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82225.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_82225.dir/feature_tests.c.o  -o cmTC_82225 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test COMPILER_WORKS succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c512e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c512e.dir/build.make CMakeFiles/cmTC_c512e.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c512e.dir/src.c.o
+/usr/bin/cc    -DCOMPILER_WORKS   -o CMakeFiles/cmTC_c512e.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c512e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c512e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCOMPILER_WORKS    CMakeFiles/cmTC_c512e.dir/src.c.o  -o cmTC_c512e 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  int main() { return 0; }
+  
+Performing C++ SOURCE FILE Test SUPPORT_GLIBCXX_USE_C99 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ecad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ecad.dir/build.make CMakeFiles/cmTC_2ecad.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ecad.dir/src.cxx.o
+/usr/bin/c++     -DSUPPORT_GLIBCXX_USE_C99 -std=c++11   -o CMakeFiles/cmTC_2ecad.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2ecad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ecad.dir/link.txt --verbose=1
+/usr/bin/c++    -DSUPPORT_GLIBCXX_USE_C99 -std=c++11    CMakeFiles/cmTC_2ecad.dir/src.cxx.o  -o cmTC_2ecad 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <cmath>
+  #include <string>
+
+  int main() {
+    int a = std::isinf(3.0);
+    int b = std::isnan(0.0);
+    std::string s = std::to_string(1);
+
+    return 0;
+    }
+Performing C++ SOURCE FILE Test CAFFE2_EXCEPTION_PTR_SUPPORTED succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c1eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c1eb.dir/build.make CMakeFiles/cmTC_2c1eb.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c1eb.dir/src.cxx.o
+/usr/bin/c++     -DCAFFE2_EXCEPTION_PTR_SUPPORTED -std=c++11   -o CMakeFiles/cmTC_2c1eb.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2c1eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c1eb.dir/link.txt --verbose=1
+/usr/bin/c++    -DCAFFE2_EXCEPTION_PTR_SUPPORTED -std=c++11    CMakeFiles/cmTC_2c1eb.dir/src.cxx.o  -o cmTC_2c1eb 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <string>
+    #include <exception>
+    int main(int argc, char** argv) {
+      std::exception_ptr eptr;
+      try {
+          std::string().at(1);
+      } catch(...) {
+          eptr = std::current_exception();
+      }
+    }
+Performing C++ SOURCE FILE Test CAFFE2_IS_NUMA_AVAILABLE succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30ee2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30ee2.dir/build.make CMakeFiles/cmTC_30ee2.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30ee2.dir/src.cxx.o
+/usr/bin/c++     -DCAFFE2_IS_NUMA_AVAILABLE -std=c++11   -o CMakeFiles/cmTC_30ee2.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_30ee2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30ee2.dir/link.txt --verbose=1
+/usr/bin/c++    -DCAFFE2_IS_NUMA_AVAILABLE -std=c++11    CMakeFiles/cmTC_30ee2.dir/src.cxx.o  -o cmTC_30ee2 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <numa.h>
+    #include <numaif.h>
+
+    int main(int argc, char** argv) {
+    }
+Performing C++ SOURCE FILE Test CAFFE2_COMPILER_SUPPORTS_AVX2_EXTENSIONS succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49460/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49460.dir/build.make CMakeFiles/cmTC_49460.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49460.dir/src.cxx.o
+/usr/bin/c++     -Wno-deprecated -DCAFFE2_COMPILER_SUPPORTS_AVX2_EXTENSIONS -mavx2   -o CMakeFiles/cmTC_49460.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_49460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49460.dir/link.txt --verbose=1
+/usr/bin/c++    -Wno-deprecated -DCAFFE2_COMPILER_SUPPORTS_AVX2_EXTENSIONS -mavx2    CMakeFiles/cmTC_49460.dir/src.cxx.o  -o cmTC_49460 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <immintrin.h>
+     int main() {
+       __m256i a, b;
+       a = _mm256_set1_epi8 (1);
+       b = a;
+       _mm256_add_epi8 (a,a);
+       __m256i x;
+       _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+       return 0;
+     }
+Performing C++ SOURCE FILE Test CAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_773a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_773a0.dir/build.make CMakeFiles/cmTC_773a0.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_773a0.dir/src.cxx.o
+/usr/bin/c++     -Wno-deprecated -DCAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS -mavx512f -mavx512dq -mavx512vl   -o CMakeFiles/cmTC_773a0.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_773a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_773a0.dir/link.txt --verbose=1
+/usr/bin/c++    -Wno-deprecated -DCAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS -mavx512f -mavx512dq -mavx512vl    CMakeFiles/cmTC_773a0.dir/src.cxx.o  -o cmTC_773a0 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#if defined(_MSC_VER)
+     #include <intrin.h>
+     #else
+     #include <immintrin.h>
+     #endif
+     // check avx512f
+     __m512 addConstant(__m512 arg) {
+       return _mm512_add_ps(arg, _mm512_set1_ps(1.f));
+     }
+     // check avx512dq
+     __m512 andConstant(__m512 arg) {
+       return _mm512_and_ps(arg, _mm512_set1_ps(1.f));
+     }
+     int main() {
+       __m512i a = _mm512_set1_epi32(1);
+       __m256i ymm = _mm512_extracti64x4_epi64(a, 0);
+       ymm = _mm256_abs_epi64(ymm); // check avx512vl
+       __mmask16 m = _mm512_cmp_epi32_mask(a, a, _MM_CMPINT_EQ);
+       __m512i r = _mm512_andnot_si512(a, a);
+     }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_630e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_630e9.dir/build.make CMakeFiles/cmTC_630e9.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_630e9.dir/src.cxx.o
+/usr/bin/c++     -Wno-deprecated -DCOMPILER_SUPPORTS_HIDDEN_VISIBILITY   -fvisibility=hidden -o CMakeFiles/cmTC_630e9.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_630e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_630e9.dir/link.txt --verbose=1
+/usr/bin/c++    -Wno-deprecated -DCOMPILER_SUPPORTS_HIDDEN_VISIBILITY    CMakeFiles/cmTC_630e9.dir/src.cxx.o  -o cmTC_630e9 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c004d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c004d.dir/build.make CMakeFiles/cmTC_c004d.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c004d.dir/src.cxx.o
+/usr/bin/c++     -Wno-deprecated -DCOMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_c004d.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c004d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c004d.dir/link.txt --verbose=1
+/usr/bin/c++    -Wno-deprecated -DCOMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTC_c004d.dir/src.cxx.o  -o cmTC_c004d 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_RDYNAMIC succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfcfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bfcfb.dir/build.make CMakeFiles/cmTC_bfcfb.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bfcfb.dir/src.cxx.o
+/usr/bin/c++     -Wno-deprecated -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_RDYNAMIC   -rdynamic -o CMakeFiles/cmTC_bfcfb.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bfcfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfcfb.dir/link.txt --verbose=1
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -DCOMPILER_SUPPORTS_RDYNAMIC    CMakeFiles/cmTC_bfcfb.dir/src.cxx.o  -o cmTC_bfcfb 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30d15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30d15.dir/build.make CMakeFiles/cmTC_30d15.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30d15.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_30d15.dir/CheckIncludeFile.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30d15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30d15.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_30d15.dir/CheckIncludeFile.c.o  -o cmTC_30d15 -rdynamic 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8509/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8509.dir/build.make CMakeFiles/cmTC_b8509.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8509.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_b8509.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8509.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b8509.dir/CheckFunctionExists.c.o  -o cmTC_b8509 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fca42/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fca42.dir/build.make CMakeFiles/cmTC_fca42.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fca42.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fca42.dir/CheckIncludeFile.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fca42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca42.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic  CMakeFiles/cmTC_fca42.dir/CheckIncludeFile.c.o  -o cmTC_fca42 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69270/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69270.dir/build.make CMakeFiles/cmTC_69270.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69270.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_69270.dir/CheckIncludeFile.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_69270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69270.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic  CMakeFiles/cmTC_69270.dir/CheckIncludeFile.c.o  -o cmTC_69270 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5c17/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5c17.dir/build.make CMakeFiles/cmTC_c5c17.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5c17.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c5c17.dir/CheckIncludeFile.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c5c17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5c17.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic  CMakeFiles/cmTC_c5c17.dir/CheckIncludeFile.c.o  -o cmTC_c5c17 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71a7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71a7a.dir/build.make CMakeFiles/cmTC_71a7a.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71a7a.dir/SIZE_OF_VOIDP.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_71a7a.dir/SIZE_OF_VOIDP.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOIDP.c
+Linking C executable cmTC_71a7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71a7a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic  CMakeFiles/cmTC_71a7a.dir/SIZE_OF_VOIDP.c.o  -o cmTC_71a7a 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fd99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fd99.dir/build.make CMakeFiles/cmTC_3fd99.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fd99.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_3fd99.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3fd99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fd99.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -rdynamic  CMakeFiles/cmTC_3fd99.dir/CheckFunctionExists.c.o  -o cmTC_3fd99 /usr/lib/libblas.so 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test BLAS_F2C_FLOAT_WORKS succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1ecb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1ecb.dir/build.make CMakeFiles/cmTC_b1ecb.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1ecb.dir/src.c.o
+/usr/bin/cc    -DBLAS_F2C_FLOAT_WORKS   -o CMakeFiles/cmTC_b1ecb.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b1ecb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ecb.dir/link.txt --verbose=1
+/usr/bin/cc   -DBLAS_F2C_FLOAT_WORKS   -rdynamic  CMakeFiles/cmTC_b1ecb.dir/src.c.o  -o cmTC_b1ecb /usr/lib/libblas.so 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <stdlib.h>
+#include <stdio.h>
+float x[4] = { 1, 2, 3, 4 };
+float y[4] = { .1, .01, .001, .0001 };
+int four = 4;
+int one = 1;
+extern float sdot_();
+int main() {
+  int i;
+  double r = sdot_(&four, x, &one, y, &one);
+  exit((float)r != (float).1234);
+}
+Performing C SOURCE FILE Test BLAS_USE_CBLAS_DOT succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba7a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba7a2.dir/build.make CMakeFiles/cmTC_ba7a2.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba7a2.dir/src.c.o
+/usr/bin/cc    -DBLAS_USE_CBLAS_DOT   -o CMakeFiles/cmTC_ba7a2.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ba7a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba7a2.dir/link.txt --verbose=1
+/usr/bin/cc   -DBLAS_USE_CBLAS_DOT   -rdynamic  CMakeFiles/cmTC_ba7a2.dir/src.c.o  -o cmTC_ba7a2 /usr/lib/libblas.so 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <stdlib.h>
+#include <stdio.h>
+float x[4] = { 1, 2, 3, 4 };
+float y[4] = { .1, .01, .001, .0001 };
+extern float cblas_sdot();
+int main() {
+  int i;
+  double r = cblas_sdot(4, x, 1, y, 1);
+  exit((float)r != (float).1234);
+}
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50bab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50bab.dir/build.make CMakeFiles/cmTC_50bab.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o
+/usr/bin/cc    -fopenmp -v   -o CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccglqyak.s
+GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/5/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8087146d2ee737d238113fb57fabb1f2
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o /tmp/ccglqyak.s
+GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_50bab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50bab.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -v   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o  -o cmTC_50bab -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_50bab' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnlBW8l.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_50bab /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -rpath /usr/lib/openmpi/lib --enable-new-dtags CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_50bab/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_50bab.dir/build.make CMakeFiles/cmTC_50bab.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc    -fopenmp -v   -o CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccglqyak.s]
+  ignore line: [GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8087146d2ee737d238113fb57fabb1f2]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o /tmp/ccglqyak.s]
+  ignore line: [GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_50bab]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50bab.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc   -fopenmp -v   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o  -o cmTC_50bab -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_50bab' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnlBW8l.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_50bab /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -rpath /usr/lib/openmpi/lib --enable-new-dtags CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnlBW8l.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_50bab] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [-rpath] ==> ignore
+    arg [/usr/lib/openmpi/lib] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [CMakeFiles/cmTC_50bab.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [gomp;pthread;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_942d0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_942d0.dir/build.make CMakeFiles/cmTC_942d0.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++     -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -v   -o CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/5/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o -Wno-deprecated -version -fvisibility-inlines-hidden -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc39LCFq.s
+GNU C++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/5"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/5
+ /usr/include/x86_64-linux-gnu/c++/5
+ /usr/include/c++/5/backward
+ /usr/lib/gcc/x86_64-linux-gnu/5/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 85af4995304287cdd19cfa43cf5d6cf1
+COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o /tmp/cc39LCFq.s
+GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_942d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942d0.dir/link.txt --verbose=1
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -v   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o  -o cmTC_942d0 -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgomp.spec
+COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_942d0' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKP83st.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_942d0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -rpath /usr/lib/openmpi/lib --enable-new-dtags CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_942d0/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_942d0.dir/build.make CMakeFiles/cmTC_942d0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++     -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -v   -o CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o -Wno-deprecated -version -fvisibility-inlines-hidden -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc39LCFq.s]
+  ignore line: [GNU C++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/5"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/5]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/5]
+  ignore line: [ /usr/include/c++/5/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 85af4995304287cdd19cfa43cf5d6cf1]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o /tmp/cc39LCFq.s]
+  ignore line: [GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_942d0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942d0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -v   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o  -o cmTC_942d0 -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wno-deprecated' '-fvisibility-inlines-hidden' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_942d0' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKP83st.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_942d0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -rpath /usr/lib/openmpi/lib --enable-new-dtags CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKP83st.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_942d0] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [-rpath] ==> ignore
+    arg [/usr/lib/openmpi/lib] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [CMakeFiles/cmTC_942d0.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;pthread;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file cpuid.h exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ef66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ef66.dir/build.make CMakeFiles/cmTC_5ef66.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ef66.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fopenmp  -fPIE   -o CMakeFiles/cmTC_5ef66.dir/CheckIncludeFile.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5ef66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ef66.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp     CMakeFiles/cmTC_5ef66.dir/CheckIncludeFile.c.o  -o cmTC_5ef66 -rdynamic 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_GCC_GET_CPUID succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3fbb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3fbb.dir/build.make CMakeFiles/cmTC_c3fbb.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3fbb.dir/src.c.o
+/usr/bin/cc    -fopenmp -DHAVE_GCC_GET_CPUID -fPIE   -o CMakeFiles/cmTC_c3fbb.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c3fbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3fbb.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DHAVE_GCC_GET_CPUID    CMakeFiles/cmTC_c3fbb.dir/src.c.o  -o cmTC_c3fbb -rdynamic 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cpuid.h>
+          int main()
+          {
+              unsigned int eax, ebx, ecx, edx;
+              return __get_cpuid(0, &eax, &ebx, &ecx, &edx);
+          }
+Performing C SOURCE FILE Test NO_GCC_EBX_FPIC_BUG succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_906dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_906dc.dir/build.make CMakeFiles/cmTC_906dc.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_906dc.dir/src.c.o
+/usr/bin/cc    -fopenmp -DNO_GCC_EBX_FPIC_BUG -fPIE   -o CMakeFiles/cmTC_906dc.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_906dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_906dc.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DNO_GCC_EBX_FPIC_BUG    CMakeFiles/cmTC_906dc.dir/src.c.o  -o cmTC_906dc -rdynamic 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <stdint.h>
+      static inline void cpuid(uint32_t *eax, uint32_t *ebx,
+                               uint32_t *ecx, uint32_t *edx)
+      {
+        uint32_t a = *eax, b, c = *ecx, d;
+        asm volatile ( "cpuid" : "+a"(a), "=b"(b), "+c"(c), "=d"(d) );
+        *eax = a; *ebx = b; *ecx = c; *edx = d;
+      }
+      int main() {
+        uint32_t a,b,c,d;
+        cpuid(&a, &b, &c, &d);
+        return 0;
+      }
+Performing C SOURCE FILE Test C_HAS_AVX_2 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15c12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15c12.dir/build.make CMakeFiles/cmTC_15c12.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15c12.dir/src.c.o
+/usr/bin/cc    -fopenmp -DC_HAS_AVX_2 -mavx -fPIE   -o CMakeFiles/cmTC_15c12.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_15c12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15c12.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DC_HAS_AVX_2 -mavx   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_15c12.dir/src.c.o  -o cmTC_15c12 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX2_2 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1e83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1e83.dir/build.make CMakeFiles/cmTC_c1e83.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1e83.dir/src.c.o
+/usr/bin/cc    -fopenmp -DC_HAS_AVX2_2 -mavx2 -mfma -fPIE   -o CMakeFiles/cmTC_c1e83.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c1e83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1e83.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DC_HAS_AVX2_2 -mavx2 -mfma   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_c1e83.dir/src.c.o  -o cmTC_c1e83 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX_2 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b13b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b13b0.dir/build.make CMakeFiles/cmTC_b13b0.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b13b0.dir/src.c.o
+/usr/bin/cc    -fopenmp -DCXX_HAS_AVX_2 -mavx -fPIE   -o CMakeFiles/cmTC_b13b0.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b13b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b13b0.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DCXX_HAS_AVX_2 -mavx   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_b13b0.dir/src.c.o  -o cmTC_b13b0 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX2_2 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48f55/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48f55.dir/build.make CMakeFiles/cmTC_48f55.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48f55.dir/src.c.o
+/usr/bin/cc    -fopenmp -DCXX_HAS_AVX2_2 -mavx2 -mfma -fPIE   -o CMakeFiles/cmTC_48f55.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_48f55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48f55.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DCXX_HAS_AVX2_2 -mavx2 -mfma   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_48f55.dir/src.c.o  -o cmTC_48f55 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test HAS_GCC_ATOMICS succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccb1c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccb1c.dir/build.make CMakeFiles/cmTC_ccb1c.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccb1c.dir/src.c.o
+/usr/bin/cc    -fopenmp -DHAS_GCC_ATOMICS -fPIE   -o CMakeFiles/cmTC_ccb1c.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ccb1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccb1c.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DHAS_GCC_ATOMICS   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_ccb1c.dir/src.c.o  -o cmTC_ccb1c 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+  int main()
+  {
+    int a;
+    __sync_lock_test_and_set(&a, 1);
+    __sync_fetch_and_add(&a, 1);
+    if(!__sync_bool_compare_and_swap(&a, 2, 3))
+      return -1;
+    return 0;
+  }
+  
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_358c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_358c4.dir/build.make CMakeFiles/cmTC_358c4.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_358c4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_ -fPIE   -o CMakeFiles/cmTC_358c4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_358c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_358c4.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=cheev_   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_358c4.dir/CheckFunctionExists.c.o  -o cmTC_358c4 /usr/lib/liblapack.so /usr/lib/libblas.so 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9822e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9822e.dir/build.make CMakeFiles/cmTC_9822e.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9822e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fopenmp -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE   -o CMakeFiles/cmTC_9822e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9822e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9822e.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=clock_gettime   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_9822e.dir/CheckFunctionExists.c.o  -o cmTC_9822e  -L/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/time.h -lrt -Wl,-rpath,/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/time.h 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f704e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f704e.dir/build.make CMakeFiles/cmTC_f704e.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f704e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fopenmp -DCHECK_FUNCTION_EXISTS=mmap -fPIE   -o CMakeFiles/cmTC_f704e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f704e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f704e.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=mmap   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_f704e.dir/CheckFunctionExists.c.o  -o cmTC_f704e -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shm_open exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2eef2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2eef2.dir/build.make CMakeFiles/cmTC_2eef2.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2eef2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fopenmp -DCHECK_FUNCTION_EXISTS=shm_open -fPIE   -o CMakeFiles/cmTC_2eef2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2eef2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eef2.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=shm_open   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_2eef2.dir/CheckFunctionExists.c.o  -o cmTC_2eef2 -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shm_unlink exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40338/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40338.dir/build.make CMakeFiles/cmTC_40338.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40338.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fopenmp -DCHECK_FUNCTION_EXISTS=shm_unlink -fPIE   -o CMakeFiles/cmTC_40338.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40338.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=shm_unlink   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_40338.dir/CheckFunctionExists.c.o  -o cmTC_40338 -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc_usable_size exists passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1850c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1850c.dir/build.make CMakeFiles/cmTC_1850c.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1850c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fopenmp -DCHECK_FUNCTION_EXISTS=malloc_usable_size -fPIE   -o CMakeFiles/cmTC_1850c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1850c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1850c.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DCHECK_FUNCTION_EXISTS=malloc_usable_size   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_1850c.dir/CheckFunctionExists.c.o  -o cmTC_1850c -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test C_HAS_THREAD succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3953d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3953d.dir/build.make CMakeFiles/cmTC_3953d.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3953d.dir/src.c.o
+/usr/bin/cc    -fopenmp -DC_HAS_THREAD -fPIE   -o CMakeFiles/cmTC_3953d.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3953d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3953d.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -DC_HAS_THREAD   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_3953d.dir/src.c.o  -o cmTC_3953d -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+static __thread int x = 1; int main() { return x; }
+Determining size of long double passed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1cce1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1cce1.dir/build.make CMakeFiles/cmTC_1cce1.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cce1.dir/LD_SIZE.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value  -fPIE   -o CMakeFiles/cmTC_1cce1.dir/LD_SIZE.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CheckTypeSize/LD_SIZE.c
+Linking C executable cmTC_1cce1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cce1.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value    -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_1cce1.dir/LD_SIZE.c.o  -o cmTC_1cce1 -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_LONG_DOUBLE succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57666/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57666.dir/build.make CMakeFiles/cmTC_57666.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57666.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_LONG_DOUBLE -fPIE   -o CMakeFiles/cmTC_57666.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_57666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57666.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_LONG_DOUBLE   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_57666.dir/src.c.o  -o cmTC_57666 -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  typedef long double vlongdouble __attribute__((vector_size(sizeof(long double)*2)));
+  vlongdouble vcast_vl_l(long double d) { return (vlongdouble) { d, d }; }
+  int main() { vlongdouble vld = vcast_vl_l(0);
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_FLOAT128 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_350e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_350e4.dir/build.make CMakeFiles/cmTC_350e4.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_350e4.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_FLOAT128 -fPIE   -o CMakeFiles/cmTC_350e4.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_350e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_350e4.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_FLOAT128   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_350e4.dir/src.c.o  -o cmTC_350e4 -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  int main() { __float128 r = 1;
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SSE2 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad059/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad059.dir/build.make CMakeFiles/cmTC_ad059.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad059.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SSE2 -msse2 -fPIE   -o CMakeFiles/cmTC_ad059.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ad059
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad059.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SSE2 -msse2   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_ad059.dir/src.c.o  -o cmTC_ad059 -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m128d r = _mm_mul_pd(_mm_set1_pd(1), _mm_set1_pd(2)); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SSE4 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d782b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d782b.dir/build.make CMakeFiles/cmTC_d782b.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d782b.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SSE4 -msse4.1 -fPIE   -o CMakeFiles/cmTC_d782b.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d782b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d782b.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SSE4 -msse4.1   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_d782b.dir/src.c.o  -o cmTC_d782b -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m128d r = _mm_floor_sd(_mm_set1_pd(1), _mm_set1_pd(2)); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_AVX succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e270a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e270a.dir/build.make CMakeFiles/cmTC_e270a.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e270a.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX -mavx -fPIE   -o CMakeFiles/cmTC_e270a.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e270a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e270a.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX -mavx   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_e270a.dir/src.c.o  -o cmTC_e270a -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m256d r = _mm256_add_pd(_mm256_set1_pd(1), _mm256_set1_pd(2));
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_FMA4 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f22c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f22c4.dir/build.make CMakeFiles/cmTC_f22c4.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f22c4.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_FMA4 -mfma4 -fPIE   -o CMakeFiles/cmTC_f22c4.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f22c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f22c4.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_FMA4 -mfma4   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_f22c4.dir/src.c.o  -o cmTC_f22c4 -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m256d r = _mm256_macc_pd(_mm256_set1_pd(1), _mm256_set1_pd(2), _mm256_set1_pd(3)); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_AVX2 succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4665/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4665.dir/build.make CMakeFiles/cmTC_e4665.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4665.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX2 -mavx2 -fPIE   -o CMakeFiles/cmTC_e4665.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e4665
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4665.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX2 -mavx2   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_e4665.dir/src.c.o  -o cmTC_e4665 -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  int main() {
+    __m256i r = _mm256_abs_epi32(_mm256_set1_epi32(1)); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_OPENMP succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_215eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_215eb.dir/build.make CMakeFiles/cmTC_215eb.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_215eb.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_OPENMP -fopenmp -fPIE   -o CMakeFiles/cmTC_215eb.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_215eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_215eb.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_OPENMP -fopenmp   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_215eb.dir/src.c.o  -o cmTC_215eb -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <stdio.h>
+  int main() {
+  int i;
+  #pragma omp parallel for
+    for(i=0;i < 10;i++) { putchar(0); }
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_WEAK_ALIASES succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e41e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e41e.dir/build.make CMakeFiles/cmTC_1e41e.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e41e.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_WEAK_ALIASES -fopenmp -fPIE   -o CMakeFiles/cmTC_1e41e.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1e41e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e41e.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_WEAK_ALIASES -fopenmp   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_1e41e.dir/src.c.o  -o cmTC_1e41e -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#if defined(__CYGWIN__)
+#define EXPORT __stdcall __declspec(dllexport)
+#else
+#define EXPORT
+#endif
+  EXPORT int f(int a) {
+   return a + 2;
+  }
+  EXPORT int g(int a) __attribute__((weak, alias("f")));
+  int main(void) {
+    return g(2);
+  }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_BUILTIN_MATH succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a7cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a7cd.dir/build.make CMakeFiles/cmTC_9a7cd.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a7cd.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_BUILTIN_MATH -fopenmp -fPIE   -o CMakeFiles/cmTC_9a7cd.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9a7cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a7cd.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_BUILTIN_MATH -fopenmp   -rdynamic  -Wl,-rpath  -Wl,/usr/lib/openmpi/lib  -Wl,--enable-new-dtags  CMakeFiles/cmTC_9a7cd.dir/src.c.o  -o cmTC_9a7cd -lrt -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  int main(void) {
+    double a = __builtin_sqrt (2);
+    float  b = __builtin_sqrtf(2);
+  }
+Performing C++ SOURCE FILE Test HAS_THREAD_LOCAL succeeded with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52bf0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52bf0.dir/build.make CMakeFiles/cmTC_52bf0.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52bf0.dir/src.cxx.o
+/usr/bin/c++     -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -D_FORCE_INLINES -D_MWAITXINTRIN_H_INCLUDED -D__STRICT_ANSI__ -O2 -fPIC -Wno-narrowing -Wall -Wextra -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -DHAVE_AVX_CPU_DEFINITION -DHAVE_AVX2_CPU_DEFINITION -std=c++11 -DHAS_THREAD_LOCAL -fPIE   -o CMakeFiles/cmTC_52bf0.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_52bf0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52bf0.dir/link.txt --verbose=1
+/usr/bin/c++    -Wno-deprecated -fvisibility-inlines-hidden -fopenmp -D_FORCE_INLINES -D_MWAITXINTRIN_H_INCLUDED -D__STRICT_ANSI__ -O2 -fPIC -Wno-narrowing -Wall -Wextra -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -DHAVE_AVX_CPU_DEFINITION -DHAVE_AVX2_CPU_DEFINITION -std=c++11 -DHAS_THREAD_LOCAL    CMakeFiles/cmTC_52bf0.dir/src.cxx.o  -o cmTC_52bf0 -rdynamic -lrt 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <thread>
+
+thread_local int foo=1;
+
+int main() {
+  return 0;
+}

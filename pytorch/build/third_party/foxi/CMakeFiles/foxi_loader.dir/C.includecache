@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../third_party/foxi/foxi/onnxifi.h
+stddef.h
+-
+stdint.h
+-
+
+../third_party/foxi/foxi/onnxifi_ext.h
+foxi/onnxifi.h
+../third_party/foxi/foxi/foxi/onnxifi.h
+
+../third_party/foxi/foxi/onnxifi_loader.h
+foxi/onnxifi.h
+../third_party/foxi/foxi/foxi/onnxifi.h
+foxi/onnxifi_ext.h
+../third_party/foxi/foxi/foxi/onnxifi_ext.h
+
+/home/lichangheng/robo_ws/pytorch/third_party/foxi/foxi/onnxifi_loader.c
+windows.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+dlfcn.h
+-
+foxi/onnxifi_loader.h
+/home/lichangheng/robo_ws/pytorch/third_party/foxi/foxi/foxi/onnxifi_loader.h
+android/log.h
+-
+stdio.h
+-
+

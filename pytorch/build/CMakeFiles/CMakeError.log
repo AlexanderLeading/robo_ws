@@ -1,0 +1,534 @@
+Performing C++ SOURCE FILE Test CAFFE2_NEED_TO_TURN_OFF_DEPRECATION_WARNING failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51377/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51377.dir/build.make CMakeFiles/cmTC_51377.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51377.dir/src.cxx.o
+/usr/bin/c++     -DCAFFE2_NEED_TO_TURN_OFF_DEPRECATION_WARNING -std=c++11   -o CMakeFiles/cmTC_51377.dir/src.cxx.o -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.cxx:1:30: fatal error: glog/stl_logging.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_51377.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_51377.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_51377.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_51377/fast' failed
+make: *** [cmTC_51377/fast] Error 2
+
+Source file was:
+#include <glog/stl_logging.h>
+    int main(int argc, char** argv) {
+      return 0;
+    }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f004/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f004.dir/build.make CMakeFiles/cmTC_7f004.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f004.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_7f004.dir/CheckSymbolExists.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7f004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f004.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7f004.dir/CheckSymbolExists.c.o  -o cmTC_7f004 -rdynamic 
+CMakeFiles/cmTC_7f004.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7f004.dir/build.make:97: recipe for target 'cmTC_7f004' failed
+make[1]: *** [cmTC_7f004] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7f004/fast' failed
+make: *** [cmTC_7f004/fast] Error 2
+
+File /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2850c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2850c.dir/build.make CMakeFiles/cmTC_2850c.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2850c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_2850c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2850c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2850c.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2850c.dir/CheckFunctionExists.c.o  -o cmTC_2850c -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2850c.dir/build.make:97: recipe for target 'cmTC_2850c' failed
+make[1]: *** [cmTC_2850c] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2850c/fast' failed
+make: *** [cmTC_2850c/fast] Error 2
+
+
+Performing C SOURCE FILE Test BLAS_F2C_DOUBLE_WORKS failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d213a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d213a.dir/build.make CMakeFiles/cmTC_d213a.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d213a.dir/src.c.o
+/usr/bin/cc    -DBLAS_F2C_DOUBLE_WORKS   -o CMakeFiles/cmTC_d213a.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d213a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d213a.dir/link.txt --verbose=1
+/usr/bin/cc   -DBLAS_F2C_DOUBLE_WORKS   -rdynamic  CMakeFiles/cmTC_d213a.dir/src.c.o  -o cmTC_d213a /usr/lib/libblas.so 
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <stdlib.h>
+#include <stdio.h>
+float x[4] = { 1, 2, 3, 4 };
+float y[4] = { .1, .01, .001, .0001 };
+int four = 4;
+int one = 1;
+extern double sdot_();
+int main() {
+  int i;
+  double r = sdot_(&four, x, &one, y, &one);
+  exit((float)r != (float).1234);
+}
+Performing C SOURCE FILE Test NNPACK_ARCH_IS_X86_32 failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02ace/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02ace.dir/build.make CMakeFiles/cmTC_02ace.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02ace.dir/src.c.o
+/usr/bin/cc    -DNNPACK_ARCH_IS_X86_32   -o CMakeFiles/cmTC_02ace.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:3:10: error: #error AVX only on x86_64
+         #error AVX only on x86_64
+          ^
+CMakeFiles/cmTC_02ace.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_02ace.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_02ace.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_02ace/fast' failed
+make: *** [cmTC_02ace/fast] Error 2
+
+Source file was:
+
+      #if ! (defined(__i386) || defined(_M_IX86))
+        #error AVX only on x86_64
+      #endif
+      int main() {
+        return 0;
+      }
+Performing C SOURCE FILE Test C_HAS_AVX_1 failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49ae8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49ae8.dir/build.make CMakeFiles/cmTC_49ae8.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49ae8.dir/src.c.o
+/usr/bin/cc    -fopenmp -DC_HAS_AVX_1 -fPIE   -o CMakeFiles/cmTC_49ae8.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+     a = _mm256_set1_ps(0);
+       ^
+In file included from /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h:41:0,
+                 from /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:
+/usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h:1285:1: error: inlining failed in call to always_inline ‘_mm256_set1_ps’: target specific option mismatch
+ _mm256_set1_ps (float __A)
+ ^
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: error: called from here
+     a = _mm256_set1_ps(0);
+       ^
+CMakeFiles/cmTC_49ae8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_49ae8.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_49ae8.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_49ae8/fast' failed
+make: *** [cmTC_49ae8/fast] Error 2
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX2_1 failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea05b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea05b.dir/build.make CMakeFiles/cmTC_ea05b.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea05b.dir/src.c.o
+/usr/bin/cc    -fopenmp -DC_HAS_AVX2_1 -fPIE   -o CMakeFiles/cmTC_ea05b.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+     a = _mm256_abs_epi16(a);
+       ^
+In file included from /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h:43:0,
+                 from /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:
+/usr/lib/gcc/x86_64-linux-gnu/5/include/avx2intrin.h:63:1: error: inlining failed in call to always_inline ‘_mm256_abs_epi16’: target specific option mismatch
+ _mm256_abs_epi16 (__m256i __A)
+ ^
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: error: called from here
+     a = _mm256_abs_epi16(a);
+       ^
+CMakeFiles/cmTC_ea05b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ea05b.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ea05b.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ea05b/fast' failed
+make: *** [cmTC_ea05b/fast] Error 2
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX_1 failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20d32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20d32.dir/build.make CMakeFiles/cmTC_20d32.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20d32.dir/src.c.o
+/usr/bin/cc    -fopenmp -DCXX_HAS_AVX_1 -fPIE   -o CMakeFiles/cmTC_20d32.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+     a = _mm256_set1_ps(0);
+       ^
+In file included from /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h:41:0,
+                 from /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:
+/usr/lib/gcc/x86_64-linux-gnu/5/include/avxintrin.h:1285:1: error: inlining failed in call to always_inline ‘_mm256_set1_ps’: target specific option mismatch
+ _mm256_set1_ps (float __A)
+ ^
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: error: called from here
+     a = _mm256_set1_ps(0);
+       ^
+CMakeFiles/cmTC_20d32.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_20d32.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_20d32.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_20d32/fast' failed
+make: *** [cmTC_20d32/fast] Error 2
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX2_1 failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87a45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87a45.dir/build.make CMakeFiles/cmTC_87a45.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87a45.dir/src.c.o
+/usr/bin/cc    -fopenmp -DCXX_HAS_AVX2_1 -fPIE   -o CMakeFiles/cmTC_87a45.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: warning: AVX vector return without AVX enabled changes the ABI [-Wpsabi]
+     a = _mm256_abs_epi16(a);
+       ^
+In file included from /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h:43:0,
+                 from /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:
+/usr/lib/gcc/x86_64-linux-gnu/5/include/avx2intrin.h:63:1: error: inlining failed in call to always_inline ‘_mm256_abs_epi16’: target specific option mismatch
+ _mm256_abs_epi16 (__m256i __A)
+ ^
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:7:7: error: called from here
+     a = _mm256_abs_epi16(a);
+       ^
+CMakeFiles/cmTC_87a45.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_87a45.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_87a45.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_87a45/fast' failed
+make: *** [cmTC_87a45/fast] Error 2
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test HAS_C11_ATOMICS failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_153f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_153f0.dir/build.make CMakeFiles/cmTC_153f0.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_153f0.dir/src.c.o
+/usr/bin/cc    -fopenmp -DHAS_C11_ATOMICS -fPIE   -o CMakeFiles/cmTC_153f0.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+In file included from /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:40:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic _Bool atomic_bool;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:41:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic char atomic_char;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:42:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic signed char atomic_schar;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:43:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic unsigned char atomic_uchar;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:44:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic short atomic_short;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:45:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic unsigned short atomic_ushort;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:46:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic int atomic_int;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:47:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic unsigned int atomic_uint;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:48:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic long atomic_long;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:49:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic unsigned long atomic_ulong;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:50:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic long long atomic_llong;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:51:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic unsigned long long atomic_ullong;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:52:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __CHAR16_TYPE__ atomic_char16_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:53:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __CHAR32_TYPE__ atomic_char32_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:54:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __WCHAR_TYPE__ atomic_wchar_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:55:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INT_LEAST8_TYPE__ atomic_int_least8_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:56:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINT_LEAST8_TYPE__ atomic_uint_least8_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:57:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INT_LEAST16_TYPE__ atomic_int_least16_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:58:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINT_LEAST16_TYPE__ atomic_uint_least16_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:59:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INT_LEAST32_TYPE__ atomic_int_least32_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:60:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINT_LEAST32_TYPE__ atomic_uint_least32_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:61:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INT_LEAST64_TYPE__ atomic_int_least64_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:62:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINT_LEAST64_TYPE__ atomic_uint_least64_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:63:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INT_FAST8_TYPE__ atomic_int_fast8_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:64:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINT_FAST8_TYPE__ atomic_uint_fast8_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:65:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INT_FAST16_TYPE__ atomic_int_fast16_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:66:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINT_FAST16_TYPE__ atomic_uint_fast16_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:67:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INT_FAST32_TYPE__ atomic_int_fast32_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:68:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINT_FAST32_TYPE__ atomic_uint_fast32_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:69:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INT_FAST64_TYPE__ atomic_int_fast64_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:70:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINT_FAST64_TYPE__ atomic_uint_fast64_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:71:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INTPTR_TYPE__ atomic_intptr_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:72:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINTPTR_TYPE__ atomic_uintptr_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:73:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __SIZE_TYPE__ atomic_size_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:74:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __PTRDIFF_TYPE__ atomic_ptrdiff_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:75:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __INTMAX_TYPE__ atomic_intmax_t;
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:76:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic __UINTMAX_TYPE__ atomic_uintmax_t;        
+ ^
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdatomic.h:218:1: sorry, unimplemented: ‘_Atomic’ with OpenMP
+ typedef _Atomic struct
+ ^
+CMakeFiles/cmTC_153f0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_153f0.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_153f0.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_153f0/fast' failed
+make: *** [cmTC_153f0/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <stdatomic.h>
+  // ATOMIC_INT_LOCK_FREE is flaky on some older gcc versions
+  // so if this define is not usable a preprocessor definition
+  // we fail this check and fall back to GCC atomics
+  #if ATOMIC_INT_LOCK_FREE == 2
+  #define TH_ATOMIC_IPC_REFCOUNT 1
+  #endif
+  int main()
+  {
+    int a;
+    int oa;
+    atomic_store(&a, 1);
+    atomic_fetch_add(&a, 1);
+    oa = atomic_load(&a);
+    if(!atomic_compare_exchange_strong(&a, &oa, 3))
+      return -1;
+    return 0;
+  }
+  
+Performing C SOURCE FILE Test HAS_MSC_ATOMICS failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb4e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb4e8.dir/build.make CMakeFiles/cmTC_eb4e8.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb4e8.dir/src.c.o
+/usr/bin/cc    -fopenmp -DHAS_MSC_ATOMICS -fPIE   -o CMakeFiles/cmTC_eb4e8.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:2:22: fatal error: intrin.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_eb4e8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_eb4e8.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_eb4e8.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eb4e8/fast' failed
+make: *** [cmTC_eb4e8/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <intrin.h>
+  int main()
+  {
+    long a;
+    _InterlockedExchange(&a, 1);
+    _InterlockedExchangeAdd(&a, 1);
+    if(_InterlockedCompareExchange(&a, 3, 2) != 2)
+      return -1;
+    return 0;
+  }
+  
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SVE failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87f37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87f37.dir/build.make CMakeFiles/cmTC_87f37.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87f37.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_SVE -march=armv8-a+sve -fPIE   -o CMakeFiles/cmTC_87f37.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:1:0: error: bad value (armv8-a+sve) for -march= switch
+ 
+ ^
+cc1: warning: unrecognized command line option ‘-Wno-absolute-value’
+CMakeFiles/cmTC_87f37.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_87f37.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_87f37.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_87f37/fast' failed
+make: *** [cmTC_87f37/fast] Error 2
+
+Source file was:
+
+  #include <arm_sve.h>
+  int main() {
+    svint32_t r = svdup_n_s32(1); }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_AVX512F failed with the following output:
+Change Dir: /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33800/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33800.dir/build.make CMakeFiles/cmTC_33800.dir/build
+make[1]: Entering directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33800.dir/src.c.o
+/usr/bin/cc    -fopenmp -Wno-ignored-qualifiers -Wno-absolute-value -DCOMPILER_SUPPORTS_AVX512F -mavx512f -fPIE   -o CMakeFiles/cmTC_33800.dir/src.c.o   -c /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:14:5: error: unrecognizable insn:
+     __m512i r = _mm512_andnot_si512(a, a); }
+     ^
+(insn 21 20 22 2 (set (mem/c:V4DI (plus:DI (reg/f:DI 82 virtual-stack-vars)
+                (const_int -448 [0xfffffffffffffe40])) [0 ymm+0 S32 A256])
+        (vec_merge:V4DI (vec_select:V4DI (reg:V8DI 105)
+                (parallel [
+                        (const_int 0 [0])
+                        (const_int 1 [0x1])
+                        (const_int 2 [0x2])
+                        (const_int 3 [0x3])
+                    ]))
+            (reg:V4DI 88 [ D.21618 ])
+            (reg:QI 106))) /home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:12 -1
+     (nil))
+/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp/src.c:14:5: internal compiler error: in extract_insn, at recog.c:2343
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-5/README.Bugs> for instructions.
+CMakeFiles/cmTC_33800.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_33800.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_33800.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/lichangheng/robo_ws/pytorch/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_33800/fast' failed
+make: *** [cmTC_33800/fast] Error 2
+
+Source file was:
+
+  #if defined(_MSC_VER)
+  #include <intrin.h>
+  #else
+  #include <x86intrin.h>
+  #endif
+  __m512 addConstant(__m512 arg) {
+    return _mm512_add_ps(arg, _mm512_set1_ps(1.f));
+  }
+  int main() {
+    __m512i a = _mm512_set1_epi32(1);
+    __m256i ymm = _mm512_extracti64x4_epi64(a, 0);
+    __mmask16 m = _mm512_cmp_epi32_mask(a, a, _MM_CMPINT_EQ);
+    __m512i r = _mm512_andnot_si512(a, a); }

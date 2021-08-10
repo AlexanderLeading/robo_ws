@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lichangheng/robo_ws/pytorch/third_party/miniz-2.0.8/miniz.c
+miniz.h
+/home/lichangheng/robo_ws/pytorch/third_party/miniz-2.0.8/miniz.h
+sys/stat.h
+-
+sys/utime.h
+-
+sys/utime.h
+-
+sys/utime.h
+-
+utime.h
+-
+utime.h
+-
+utime.h
+-
+
+/home/lichangheng/robo_ws/pytorch/third_party/miniz-2.0.8/miniz.h
+stddef.h
+-
+time.h
+-
+assert.h
+-
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+

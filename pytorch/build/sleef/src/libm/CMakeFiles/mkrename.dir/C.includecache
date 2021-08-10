@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lichangheng/robo_ws/pytorch/third_party/sleef/src/libm/funcproto.h
+
+/home/lichangheng/robo_ws/pytorch/third_party/sleef/src/libm/mkrename.c
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+funcproto.h
+/home/lichangheng/robo_ws/pytorch/third_party/sleef/src/libm/funcproto.h
+

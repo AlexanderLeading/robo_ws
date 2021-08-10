@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libgloo_builder.a  CMakeFiles/gloo_builder.dir/allreduce_builder.cc.o CMakeFiles/gloo_builder.dir/broadcast_builder.cc.o
+/usr/bin/ranlib ../../../lib/libgloo_builder.a

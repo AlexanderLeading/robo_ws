@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lichangheng/robo_ws/pytorch/third_party/sleef/src/common/arraymap.c
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+ctype.h
+-
+inttypes.h
+-
+assert.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/file.h
+-
+Windows.h
+-
+

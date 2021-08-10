@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../third_party/onnx/onnx/onnxifi.h
+stddef.h
+-
+stdint.h
+-
+
+../third_party/onnx/onnx/onnxifi_ext.h
+onnx/onnxifi.h
+../third_party/onnx/onnx/onnx/onnxifi.h
+
+/home/lichangheng/robo_ws/pytorch/third_party/onnx/onnx/onnxifi_dummy.c
+stdlib.h
+-
+string.h
+-
+math.h
+-
+onnx/onnxifi.h
+/home/lichangheng/robo_ws/pytorch/third_party/onnx/onnx/onnx/onnxifi.h
+onnx/onnxifi_ext.h
+/home/lichangheng/robo_ws/pytorch/third_party/onnx/onnx/onnx/onnxifi_ext.h
+
